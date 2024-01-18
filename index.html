@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Appointment Form</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Categories</a></li>
+        <li> <a href="">About</a></li>
+        <li> <a href="">Contact</a></li>
+    </ul>
+
+     <form id="appointment-form ">
+     <h3 class="ss">EDUCATİONAL APPOİNTMENT FORM </h3>
+        <h4 class="text-black">Title</h4>
+        <input type="text" id="title" name="title" required>
+
+        <h4 class="text-black mt-3">Your Name</h4>
+        <input type="text" id="name" name="name" required>
+
+        <h4 class="text-black mt-3">Email</h4>
+        <input type="email" id="email" name="email" required>
+
+        <h4 class="text-black mt-3">Course Type:</h4>
+        <select id="course-type" name="course-type" required>
+            <option selected disabled>Select Course Type</option>
+            <option value="a">Language Courses</option>
+            <option value="b">Technology and Programming</option>
+            <option value="c">Creative Arts</option>
+            <option value="d">Business and Management</option>
+            <option value="e">Science and Mathematics</option>
+            <option value="f">Music and Performing Arts</option>
+            <option value="g">Music and Performing Arts</option>
+        </select>
+
+        <h4 class="text-black mt-3">City:</h4>
+        <select id="city" name="city" required>
+            <option selected disabled>İl seçiniz</option>
+            <option value="adana">Adana</option>
+            <option value="adiyaman">Adıyaman</option>
+            <option value="afyonkarahisar">Afyonkarahisar</option>
+            <option value="agri">Ağrı</option>
+            <option value="amasya">Amasya</option>
+            <option value="ankara">Ankara</option>
+            <option value="antalya">Antalya</option>
+            <option value="artvin">Artvin</option>
+            <option value="aydin">Aydın</option>
+            <option value="balikesir">Balıkesir</option>
+            <option value="bilecik">Bilecik</option>
+            <option value="bingol">Bingöl</option>
+            <option value="bitlis">Bitlis</option>
+            <option value="bolu">Bolu</option>
+            <option value="burdur">Burdur</option>
+            <option value="bursa">Bursa</option>
+            <option value="canakkale">Çanakkale</option>
+            <option value="cankiri">Çankırı</option>
+            <option value="corum">Çorum</option>
+            <option value="denizli">Denizli</option>
+            <option value="diyarbakir">Diyarbakır</option>
+            <option value="duzce">Düzce</option>
+            <option value="edirne">Edirne</option>
+            <option value="elazig">Elazığ</option>
+            <option value="erzincan">Erzincan</option>
+            <option value="erzurum">Erzurum</option>
+            <option value="eskisehir">Eskişehir</option>
+            <option value="gaziantep">Gaziantep</option>
+            <option value="giresun">Giresun</option>
+            <option value="gumushane">Gümüşhane</option>
+            <option value="hakkari">Hakkari</option>
+            <option value="hatay">Hatay</option>
+            <option value="igdir">Iğdır</option>
+            <option value="isparta">Isparta</option>
+            <option value="istanbul">İstanbul</option>
+            <option value="izmir">İzmir</option>
+            <option value="kahramanmaras">Kahramanmaraş</option>
+            <option value="karabuk">Karabük</option>
+            <option value="karaman">Karaman</option>
+            <option value="kars">Kars</option>
+            <option value="kastamonu">Kastamonu</option>
+            <option value="kayseri">Kayseri</option>
+            <option value="kilis">Kilis</option>
+            <option value="kirikkale">Kırıkkale</option>
+            <option value="kirklareli">Kırklareli</option>
+            <option value="kirsehir">Kırşehir</option>
+            <option value="kocaeli">Kocaeli</option>
+            <option value="konya">Konya</option>
+            <option value="kutahya">Kütahya</option>
+            <option value="malatya">Malatya</option>
+            <option value="manisa">Manisa</option>
+            <option value="mardin">Mardin</option>
+            <option value="mersin">Mersin</option>
+            <option value="mugla">Muğla</option>
+            <option value="mus">Muş</option>
+            <option value="nevsehir">Nevşehir</option>
+            <option value="nigde">Niğde</option>
+            <option value="ordu">Ordu</option>
+            <option value="osmaniye">Osmaniye</option>
+            <option value="rize">Rize</option>
+            <option value="sakarya">Sakarya</option>
+            <option value="samsun">Samsun</option>
+            <option value="siirt">Siirt</option>
+            <option value="sinop">Sinop</option>
+            <option value="sivas">Sivas</option>
+            <option value="sanliurfa">Şanlıurfa</option>
+            <option value="sirnak">Şırnak</option>
+            <option value="tekirdag">Tekirdağ</option>
+            <option value="tokat">Tokat</option>
+            <option value="trabzon">Trabzon</option>
+            <option value="tunceli">Tunceli</option>
+            <option value="usak">Uşak</option>
+            <option value="van">Van</option>
+            <option value="yalova">Yalova</option>
+            <option value="yozgat">Yozgat</option>
+            <option value="zonguldak">Zonguldak</option>
+        </select>
+
+
+        <h4 class="text-black mt-3">Phone Number:</h4>
+        <input type="text" id="phone" name="phone" required>
+
+        <h4 class="text-black mt-3">How would you like to be located?</h4>
+        <select id="location" name="location" required>
+            <option value="home">Home</option>
+            <option value="office">Dormitory</option>
+             <option value="office">other</option>
+        </select>
+
+        <h4 class="text-black mt-3">Terms and Conditions</h4>
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the Terms and Conditions</label>
+
+        
+
+        <input type="submit" value="Submit" onclick="alert('Form submitted');">
+    </form>
+    <script src="scripts.js"></script>
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</html>
